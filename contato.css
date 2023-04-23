@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+  
+  body {
+    font-size: 100%;
+    background: #F3DADD;
+  }
+  
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+  }
+  
+  .cabecalho-menu {
+    display: flex;
+    gap: 32px;
+  }
+  #inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#B09DA1;
+    color: #FFF2E7;
+    border-radius: 40px;
+    width: 50px;
+    
+
+  }
+  #conteudo {
+    margin-bottom: 48px;
+    border-bottom:  0.6px solid #FFF2E7;
+    border-top: 0.4px solid #FFF2E7;
+  }
+  
+  
+  .conteudo-principal {
+    background-color: white;
+    max-width: 500px;
+    width: 70%;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    border-radius: 20px;
+  }
+  
+  .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+  }
+  #caixa {
+    width: 100%;
+    height: 35px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+  }
+  #caixaMaior{
+    width: 100%;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding-left: 10px;
+  }
+  
+   label {
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: B09DA1;
+   }
+  .conteudo-principal-escrito-titulo {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: B09DA1;
+  }
+  
+  #conteudo-Botao{
+    background: #B09DA1;
+    width: 50%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    box-shadow: #5f7C8A;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFF2E7;
+    
+  }
+  
